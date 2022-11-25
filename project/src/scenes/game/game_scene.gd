@@ -56,7 +56,7 @@ func _on_Board_moves_updated(move_count):
 
 func _on_SettingsScreen_board_size_update(new_size):
 	board.update_size(new_size)
-	overlay_text.text = 'Click to start'
+	overlay_text.text = 'Clique para começar'
 	overlay.visible = true
 	is_started = false
 

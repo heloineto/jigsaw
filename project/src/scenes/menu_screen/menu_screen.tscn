@@ -59,9 +59,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 theme = ExtResource( 2 )
 script = ExtResource( 3 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Panel" type="Panel" parent="."]
 anchor_right = 1.0
@@ -73,7 +70,7 @@ anchor_right = 1.0
 anchor_bottom = 0.5
 margin_right = 0.000183105
 custom_fonts/font = ExtResource( 1 )
-text = "Slide Puzzle"
+text = "Puzzle"
 align = 1
 valign = 1
 __meta__ = {
@@ -104,10 +101,7 @@ margin_top = 77.23
 margin_right = -96.0
 margin_bottom = 44.1994
 custom_styles/hover = SubResource( 2 )
-text = "Play"
-__meta__ = {
-"_edit_use_anchors_": false
-}
+text = "Jogar"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/menu_in = SubResource( 3 )

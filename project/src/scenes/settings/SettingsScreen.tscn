@@ -22,9 +22,6 @@ anchor_bottom = 1.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Panel" type="Panel" parent="."]
 margin_right = 336.0
@@ -57,8 +54,8 @@ valign = 1
 margin_top = 47.0
 margin_right = 328.0
 margin_bottom = 111.0
-custom_styles/separator = SubResource( 2 )
 custom_constants/separation = 64
+custom_styles/separator = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -67,8 +64,8 @@ __meta__ = {
 margin_top = 115.0
 margin_right = 328.0
 margin_bottom = 155.0
-custom_styles/focus = SubResource( 3 )
 custom_fonts/font = ExtResource( 2 )
+custom_styles/focus = SubResource( 3 )
 pressed = true
 text = "Show tile numbers"
 __meta__ = {
@@ -79,8 +76,8 @@ __meta__ = {
 margin_top = 159.0
 margin_right = 328.0
 margin_bottom = 191.0
-custom_styles/separator = SubResource( 2 )
 custom_constants/separation = 32
+custom_styles/separator = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -139,8 +136,8 @@ text = "4"
 margin_top = 218.0
 margin_right = 328.0
 margin_bottom = 248.0
-custom_styles/separator = SubResource( 5 )
 custom_constants/separation = 30
+custom_styles/separator = SubResource( 5 )
 
 [node name="FileButton" type="Button" parent="M/V"]
 margin_left = 73.0
@@ -154,8 +151,8 @@ text = "Choose Background Image"
 margin_top = 276.0
 margin_right = 328.0
 margin_bottom = 306.0
-custom_styles/separator = SubResource( 5 )
 custom_constants/separation = 30
+custom_styles/separator = SubResource( 5 )
 
 [node name="BackButton" type="Button" parent="M/V"]
 margin_left = 132.0
@@ -177,7 +174,6 @@ custom_styles/separator = SubResource( 5 )
 margin_top = 376.0
 margin_right = 328.0
 margin_bottom = 390.0
-text = "Game by Delano Lourenco"
 align = 1
 
 [node name="FileDialog" type="FileDialog" parent="M"]
@@ -187,13 +183,10 @@ margin_right = 332.0
 margin_bottom = 356.0
 rect_min_size = Vector2( 270, 290 )
 size_flags_vertical = 6
-window_title = "Open a File"
+window_title = "Abrir um Arquivo"
 mode = 0
 access = 2
 filters = PoolStringArray( "*.png", "*.jpeg", "*.jpg", "*.bmp", "*webp" )
-current_dir = "/Projects/Godot/Projects/SlidePuzzle/project/assets/backgrounds"
-current_file = "deku.jpg"
-current_path = "/Projects/Godot/Projects/SlidePuzzle/project/assets/backgrounds/deku.jpg"
 
 [node name="PopupMessage" parent="M" instance=ExtResource( 4 )]
 

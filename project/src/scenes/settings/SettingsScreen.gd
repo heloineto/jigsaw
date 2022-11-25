@@ -31,11 +31,11 @@ func _on_FileDialog_file_selected(path):
 	var image = Image.new()
 	var err = image.load(path)
 	if err != OK:
-		message_popup.setup("Error Occured", "There was an error importing the image.")
+		message_popup.setup("Error Occured", "Aconteceu um erro ao importar a imagem.")
 		message_popup.popup()
 		return
 
-	message_popup.setup("Success", "The background image was changed successully.")
+	message_popup.setup("Success", "A imagem de fundo foi alterada com sucesso.")
 	var texture = ImageTexture.new()
 	texture.create_from_image(image, 0)
 	message_popup.popup()
