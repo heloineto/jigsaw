@@ -46,7 +46,7 @@ margin_bottom = 406.0
 margin_right = 328.0
 margin_bottom = 43.0
 custom_fonts/font = ExtResource( 3 )
-text = "Settings"
+text = "Configurações"
 align = 1
 valign = 1
 
@@ -67,7 +67,7 @@ margin_bottom = 155.0
 custom_fonts/font = ExtResource( 2 )
 custom_styles/focus = SubResource( 3 )
 pressed = true
-text = "Show tile numbers"
+text = "Mostrar os números das peças"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -96,10 +96,10 @@ margin_bottom = 19.0
 columns = 4
 
 [node name="SizeTitle" type="Label" parent="M/V/M/G"]
-margin_right = 76.0
+margin_right = 149.0
 margin_bottom = 19.0
 custom_fonts/font = ExtResource( 2 )
-text = "Board Size"
+text = "Quantidade de peças"
 
 [node name="VS" type="VSeparator" parent="M/V/M/G"]
 margin_left = 163.0
@@ -140,12 +140,12 @@ custom_constants/separation = 30
 custom_styles/separator = SubResource( 5 )
 
 [node name="FileButton" type="Button" parent="M/V"]
-margin_left = 73.0
+margin_left = 100.0
 margin_top = 252.0
-margin_right = 254.0
+margin_right = 227.0
 margin_bottom = 272.0
 size_flags_horizontal = 6
-text = "Choose Background Image"
+text = "Escolha a imagem"
 
 [node name="VS2" type="HSeparator" parent="M/V"]
 margin_top = 276.0
@@ -161,7 +161,7 @@ margin_right = 196.0
 margin_bottom = 342.0
 rect_min_size = Vector2( 64, 32 )
 size_flags_horizontal = 4
-text = "Back"
+text = "Voltar"
 
 [node name="VS3" type="HSeparator" parent="M/V"]
 margin_top = 346.0

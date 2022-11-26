@@ -125,7 +125,7 @@ custom_styles/panel = SubResource( 4 )
 [node name="TextOverlay" type="Label" parent="MarginContainer/VBoxContainer/GameView/StartOverlay"]
 margin_right = 328.0
 margin_bottom = 319.0
-text = "Click to start"
+text = "Clique para começar"
 align = 1
 valign = 1
 __meta__ = {
@@ -163,8 +163,8 @@ size_flags_horizontal = 3
 [node name="VSeparator" type="VSeparator" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
 margin_right = 8.0
 margin_bottom = 52.0
-custom_styles/separator = ExtResource( 4 )
 custom_constants/separation = 8
+custom_styles/separator = ExtResource( 4 )
 
 [node name="Time" type="VBoxContainer" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
 margin_left = 12.0
@@ -174,7 +174,7 @@ margin_bottom = 52.0
 [node name="TimeTitle" type="Label" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer/Time"]
 margin_right = 65.0
 margin_bottom = 24.0
-text = "Time"
+text = "Tempo"
 align = 1
 valign = 1
 
@@ -195,53 +195,53 @@ custom_styles/separator = ExtResource( 4 )
 
 [node name="Moves" type="VBoxContainer" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
 margin_left = 89.0
-margin_right = 148.0
+margin_right = 154.0
 margin_bottom = 52.0
 
 [node name="MoveText" type="Label" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer/Moves"]
-margin_right = 59.0
+margin_right = 65.0
 margin_bottom = 24.0
-text = "Moves"
+text = "Passos"
 align = 1
 valign = 1
 
 [node name="MoveValue" type="Label" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer/Moves"]
 margin_top = 28.0
-margin_right = 59.0
+margin_right = 65.0
 margin_bottom = 52.0
 text = "0"
 align = 1
 valign = 1
 
 [node name="VSeparator3" type="VSeparator" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
-margin_left = 152.0
-margin_right = 176.0
+margin_left = 158.0
+margin_right = 177.0
 margin_bottom = 52.0
 size_flags_horizontal = 3
-custom_styles/separator = ExtResource( 4 )
 custom_constants/separation = 16
+custom_styles/separator = ExtResource( 4 )
 
 [node name="RestartButton" type="Button" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
-margin_left = 180.0
+margin_left = 181.0
 margin_top = 10.0
-margin_right = 242.0
+margin_right = 254.0
 margin_bottom = 42.0
 rect_min_size = Vector2( 60, 32 )
 size_flags_vertical = 4
 custom_fonts/font = ExtResource( 5 )
-text = "Restart"
+text = "Reiniciar"
 
 [node name="VSeparator4" type="VSeparator" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
-margin_left = 246.0
-margin_right = 271.0
+margin_left = 258.0
+margin_right = 277.0
 margin_bottom = 52.0
 size_flags_horizontal = 3
-custom_styles/separator = ExtResource( 4 )
 custom_constants/separation = 16
+custom_styles/separator = ExtResource( 4 )
 
 [node name="SettingsButton" type="TextureButton" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
-margin_left = 275.0
-margin_right = 299.0
+margin_left = 281.0
+margin_right = 300.0
 margin_bottom = 52.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -250,11 +250,11 @@ expand = true
 stretch_mode = 5
 
 [node name="VSeparator5" type="VSeparator" parent="MarginContainer/VBoxContainer/StatsView/HBoxContainer"]
-margin_left = 303.0
-margin_right = 311.0
+margin_left = 304.0
+margin_right = 312.0
 margin_bottom = 52.0
-custom_styles/separator = ExtResource( 4 )
 custom_constants/separation = 8
+custom_styles/separator = ExtResource( 4 )
 
 [node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer"]
 margin_top = 388.0

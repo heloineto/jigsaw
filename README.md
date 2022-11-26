@@ -14,8 +14,8 @@ Baixe o zip do repositório e extraia-o em uma pasta. Abra o Godot e clique em i
 
 # Screenshots
 ### Tela inicial
-<img src="https://cdn.discordapp.com/attachments/360062738615107605/861879929963806721/unknown.png" />
+<img src="https://cdn.discordapp.com/attachments/973547446095466576/1045866995914133524/image.png" />
 
 ### Print do jogo
-<img src="https://cdn.discordapp.com/attachments/360062738615107605/861880393112223774/unknown.png" />
+<img src="https://cdn.discordapp.com/attachments/973547446095466576/1045867275615490079/image.png" />
 
